@@ -1,0 +1,72 @@
+* { margin: 0px; padding: 0px; border: none; }
+body { font-size: 17px; font-family: Arial; background-color: #FFFFE0; }
+#container { width: 1200px; margin: auto; overflow: auto; background-color: white;}
+/*.style-two { border: 0; height: 10px; background-image: linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75)rgba(0.0.0.0)); }*/
+hr { border: 0; height: 5px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)); }
+.left { float: left; width: 49%;}
+.right { float: right; width: 49%;}
+._left { float: left; width: 30%; }
+._right { float: right; width: 70%; }
+/*HEADER*/
+
+#header { width: 100%; overflow: auto; background-color: white; }
+#header-top { width: 100%; overflow: auto; height: 40px; line-height: 40px; background-color: none;}
+.header-top-left { float: left; }
+.header-top-left li { float: left; list-style-type: none;padding-right: 50px; }
+.header-top-right { float: right; position: relative;}
+.header-top-right input { background-color: #DDDDDD; border-radius: 10px; width: 250px; height: 30px; }
+.header-top-right span { position: absolute; top: 12px;left: 220px;  }
+#header-center { width: 100%; overflow: auto; background-color: #222222; border-bottom: 2px solid #899E37; }
+.logo { float: left; overflow: auto; color: white;}
+.menu { float: right; overflow: auto; }
+.menu li { float: left; list-style-type: none; margin-top: 50px; margin-bottom: 20px; text-align: center; border-right: 2px solid white; padding: 0px 20px; color: white;}
+.menu li:last-child { border-right: none;}
+.menu a { text-decoration: none; font-size: 18px; color: white; }
+.menu li a:hover { color: #899E37; }
+.action a { color: #899E37; }
+#header-bot { width: 100%; overflow: auto; }
+.slide { width: 100%; overflow: auto; background-color: pink; }
+.slide img  { width: 100%; height: 400px; }
+
+/*CONTENT*/
+
+#content { width: 100%; overflow: auto; }
+#content-top { width: 100%; overflow: auto; background-color: white; padding: 50px 0px;text-align: center; font-size: 36px; font-style: italic; line-height: 60px;}
+#content-center { width: 100%; overflow: auto; background-color: none; margin: 40px 0px; }
+.left-column { width: 48%; overflow: auto; float: left; margin: 0px; background-color: #F0F0F0; }
+.right-column { width: 48%; float: right; background-color: #F0F0F0;}
+.image { width: 100%; overflow: auto; height: 170px; background-color: none;  }
+.note { margin: 30px 5px; color: none;}
+.note h4 { color: #8EA74B; line-height: 40px; font-size: 25px;}
+/*#content .column:first-child { margin-left: 0px;  }*/
+/*#content .column:last-child { margin-right: : 0px; background-color: red; }*/
+#content-bot { width: 100%; overflow: auto; background-color: white; margin: 50px 0px;}
+.link-top { width: 100%; overflow: auto; background-color: none; margin: 20px 0px; }
+.link-top p{ float: left; font-weight: bold;}
+.link-top a{  float: right; text-decoration: none; color: #8EA74B; }
+.link-top .left { border-bottom: 2px solid silver; padding: 10px 0px;}
+.link-top .right { border-bottom: 2px solid silver; padding: 10px 0px;}
+.link-bot { width: 100%; overflow: auto; }
+.link-bot h4 { color: #8EA74B; font-size: 20px; line-height: 30px;}
+.link-bot img { width: 100%; height: 250px; }
+.link-bot a { text-decoration: none; color: #8EA74B; }
+
+/*FOOTER*/
+
+#footer { width: 100%; overflow: auto; padding: 50px 0px;background-color: #222222; border-bottom: 2px solid black; }
+#footer h2 { color: #666666; margin: 20px 0px; font-size: 17px;}
+.post-title h3 { color: #666666; margin: 10px 0px; }
+#footer a { text-decoration: none; color: #8EA74B; }
+#footer img { width: 280px; height:  150px; }
+#footer p { color: #666666; }
+#footer li { list-style-type: none; color: #666666; border-bottom: 1px solid #666666; margin: 14px 0px;}
+.post-title { margin-bottom: 10px;  }
+#footer form { margin-top: 20px; }
+#footer h3 { color: #666666; margin: 20px 0px; }
+#footer input { width: 278px; height: 30px; margin-bottom: 10px; border-radius: 7px; padding-left: 10px; background-color: #353535; }
+#footer button { width: 80px; height: 30px; background-color: #8EA74B; border-radius: 7px; font-size: 15px; font-weight: bold; color: white; s}
+.contact-us { margin-bottom: 90px; }
+/*COPYRIGHT*/
+
+#copyright { width: 100%; overflow: auto;color: #666666; background-color: #222222; line-height: 60px; }
+#copyright .right p { float:right; }
